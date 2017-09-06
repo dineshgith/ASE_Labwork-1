@@ -1,0 +1,22 @@
+body{height: 100px; background: url('http://nextlawgroup.com/wp-content/uploads/2013/07/Facebook-World-Network-HD-Wallpaper.jpg')}
+.container{width: 100%;}
+.col-md-4 span{font-size: 30%; font-weight: bold; font-family: calibri, arial;color :rgb(100,100,200); font-style: italic}
+.col-md-4 h1{ background: white;font-family: calibri, arial;font-weight:bold; color :rgb(100,100,100); font-size: 155px; position:relative; left: 0px;}
+.header{font-family:'calibri, arial';border: none; width : 100%;height: 100% }
+.header a{font-size: 100%;color: rgb(300,300,300); padding: 30px;top: -100px; position: relative; font-family:calibri, arial;font-weight: bold;  }
+#col-md-4{ height: 50px;}
+.header a:hover{ transition-duration: 0.3s; color: rgb(0,0,0); }
+
+/*container design*/
+.control-label{float: left;}
+.container .inner{text-align:center;width: 500px; margin: 100px auto; border : 10px solid none; background: rgba(50,50,50, 0.4); padding: 10px; -webkit-transform: skew(30deg,10deg);-moz-transform: skew(30deg,10deg); -o-transform: skew(30deg,10deg); transition-duration: 0.7s;}
+.container .inner:hover{-webkit-transform:skew(0deg,0deg); -moz-transform:skew(0deg,0deg);-o-transform:skew(0deg,0deg);transition-duration: 0.7s; background: transparent;}
+.inner h1{background: white; color : rgb(100,100,200); font-family:calibri, arial; font-weight: bold; text-align: left; font-size: 40px}
+.inner h3{color: rgb(300,300,300); font-size: 40px; font-family: 'calibri, arial' ; text-align: left; margin-top: -5px}
+.inner form label span{color: white;}
+.inner form lagend{color: white; font-family: calibri, arial; font-size: xx-large; font-weight: bold;text-align: left}
+.inner .input{width : 100%; border: none; border-bottom: 1px solid white; color: #9f00a7; background: white; padding: 10px;}
+.inner .input:focus{box-shadow: none; border: 1px solid none;}
+.container hr{border-color: rgb(100,100,100);}
+.inner .button{border-radius:10px 10px 10px 10px;color: #9f00a7; background: rgba(50,50,50, 0.4); padding: 2px 30px ;  border: 2px solid #9f00a7;  font-family: calibri; margin:10px auto; font-weight: bold;}
+.inner .button:hover{background: #8f00a7; color: white;}
