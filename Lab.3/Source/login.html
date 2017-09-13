@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>MashUp Here!</title>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="65609183211-5403j3ki5jpp4p74fc490fv6qn0mhn0b.apps.googleusercontent.com">
+
+
+
+
+
+
+    <link rel="stylesheet" href="loginstyle.css">
+
+
+</head>
+
+<body background = "back.jpg">
+<form action="#" id="login-form">
+    <div class="heading">Mashup.com</div>
+    <div class="left">
+        <label for="email">Email</label> <br />
+        <input type="email" name="email" id="email" /> <br />
+        <label for="password">Password</label> <br />
+        <input type="password" name="password" id="password" /> <br />
+
+        <input type="submit" value="Login"/>
+    </div>
+</form>
+
+<div align="center"
+     class="g-signin2"
+     data-onsuccess="onSignIn"
+     data-scope="https://www.googleapis.com/auth/plus.login"
+     data-accesstype="offline">
+
+</div>
+
+
+<script>
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        window.location='index.html'
+    }
+
+
+
+</script>
+
+</body>
+</html>
